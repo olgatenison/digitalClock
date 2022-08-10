@@ -11,17 +11,29 @@ body {
   overflow: hidden;
 }
 h2 {
+  font-family: "Cherish", cursive;
+  font-size: 35px;
+  text-align: center;
+  color: #7a4c3d;
+  line-height: 1;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.bgTxt {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 12px;
+  font-weight: 200;
   text-align: center;
-  color: #b45234;
-  opacity: 0.9;
-  margin-bottom: 15px;
+  color: #fff;
+  opacity: 0.4;
+  margin-top: 195px;
 }
 .clock {
   display: flex;
   position: relative;
+  max-width: 100%;
+  text-align: center;
 }
 .clock div {
   margin: 3px;
@@ -50,7 +62,9 @@ h2 {
   opacity: 0.9;
 }
 .clock #ampm {
-  bottom: 3px;
+  bottom: -33px;
+  left: 50%;
+  margin-left: -30px;
   position: absolute;
   width: 60px;
   height: 30px;
